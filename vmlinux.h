@@ -4,6 +4,8 @@
 #include "vmlinux-arm64.h"
 #elif defined(__TARGET_ARCH_riscv)
 #include "vmlinux-riscv.h"
+#elif defined(__TARGET_ARCH_loongarch)
+#include "vmlinux-loongarch.h"
 #else
 /*
  * For other architectures, we don't have a vmlinux.h file. But the normal dae
